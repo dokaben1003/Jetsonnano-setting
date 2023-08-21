@@ -1,22 +1,14 @@
 # Jetsonnano-yolov5
 This is a summary of how to set up the YOLOv5 environment on Jetson Nano.
 
-
-
 # Requirement
 
+* CUDA Version 10.2
 * Python 3.6.9
-
-
-Environments under [Anaconda for Linux](https://www.anaconda.com/distribution/) is tested.
-I tried the code for testing on Ubuntu 18. 
-
+* Jetpack
 ```
-conda create -n ano python=3.9.16
-conda activate ano
-pip3 install -r requirements.txt
-pyinstaller --onefile --hidden-import=PIL._tkinter_finder annotation.py
-./dist/annotation
+cat /etc/nv_tegra_release
+# R32 (release), REVISION: 7.4, GCID: 33514132, BOARD: t210ref, EABI: aarch64, DATE: Fri Jun  9 04:25:08 UTC 2023
 ```
  
 # Usage
