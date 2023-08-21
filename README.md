@@ -1,11 +1,11 @@
 # Jetsonnano-yolov5
-This is a tool that stores the coordinates of images in a text file. Since there was no keypoint annotation tool available, I created it myself. When you click on the image, a mark is displayed, and the coordinates are saved in a text file. Please use it when measuring the coordinates of many small objects.
+This is a summary of how to set up the YOLOv5 environment on Jetson Nano.
 
 
 
 # Requirement
 
-* Python 3.9.16
+* Python 3.6.9
 
 
 Environments under [Anaconda for Linux](https://www.anaconda.com/distribution/) is tested.
