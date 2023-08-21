@@ -27,6 +27,12 @@ sudo python3 detect.py
 sudo python3 train.py
 ```
 
+
+If you want to perform transfer learning on Jetson Nano, due to limited memory, I recommend utilizing Google Colab.
+
+Here is a reference example for your consideration:
+https://colab.research.google.com/drive/1BRhavy4vadKEWDzD7UyV5cnQQZ3OVO13#scrollTo=bls5UoOQy__j
+
 # Note
 presetting.sh
 
